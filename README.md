@@ -1,9 +1,12 @@
-# VR-Scene
-A Unity scene for Stanford class EE267: Virtual Reality. Based on Oculus Rift CV1 technology with positional tracking and a remote.
+# Cracking the Egg 🥚
+_Cracking the Egg_ is an interactive Unity scene for the Stanford class EE267: Virtual Reality, taught by Gordon Wetzstein. It puts the player in a futuristic hacking program called an "Egg". In it, physical objects represent keys that can be used to ultimately crack a passcode. Full of music, atmosphere, and a low-poly style, this project was completed in two weeks by Andrew Lee.
 
-# Preview Screenshots
+This app requires an Oculus Rift CV1.
 
-# Unity Asset Store Items Used
+## Preview Screenshots
+
+## Resources Used
+### Unity Asset Store Items
 
 Note: All assets used are freely available.
 
@@ -32,3 +35,13 @@ Note: All assets used are freely available.
 - [Stylized Simple Cartoon City by Area730](https://www.assetstore.unity3d.com/en/#!/content/50095)
 - [UCLA Wireframe Shader by The UCLA Game Lab](https://www.assetstore.unity3d.com/en/#!/content/21897)
 - [Urban Props Pack by karboosx](https://www.assetstore.unity3d.com/en/#!/content/71368)
+
+### Audio
+
+Note: Gathered from [freesound](http://freesound.org/) and [freemusicarchive](http://freemusicarchive.org/).
+
+- [Snowfall (Intro) in Chapter One / Cold by Kai Engel](http://freemusicarchive.org/music/Kai_Engel/Chapter_One__Cold/)
+- [Why so seeming fast but deadly slow by Robert Farmer](http://freemusicarchive.org/music/Robert_Farmer/Solo_Guitar_Instrumentals/04-Why_so_seeming_fast_but_deadly_slow#)
+- [Era of Space by MrPork](http://freesound.org/people/MrPork/sounds/271866/)
+
+All other sounds (found in Assets/_Sounds) used are licensed under CC0.
