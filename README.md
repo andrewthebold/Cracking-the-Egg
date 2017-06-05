@@ -3,7 +3,18 @@ _Cracking the Egg_ is an interactive Unity scene for the Stanford class EE267: V
 
 This app requires an Oculus Rift CV1.
 
+## Controls
+Move around an open area with positional tracking.
+
+Use an Oculus remote:
+
+- D-pad Up acts as a regular click (due to current bug with Button One causing double clicks)
+- D-pad Down recenters the screen
+- Back button opens OVR Inspector Menu
+
 ## Preview Screenshots
+![capture](https://cloud.githubusercontent.com/assets/10323195/26778871/fa5637ee-4997-11e7-8143-76b108a01e4b.PNG)
+![capture2](https://cloud.githubusercontent.com/assets/10323195/26778873/fb9ee560-4997-11e7-89fe-c8a8e81f12de.PNG)
 
 ## Resources Used
 ### Unity Asset Store Items
