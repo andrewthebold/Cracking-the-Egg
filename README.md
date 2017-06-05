@@ -19,7 +19,7 @@ Use an Oculus remote:
 ## Resources Used
 ### Unity Asset Store Items
 
-Note: All assets used are freely available.
+Note: All assets below are freely available. Any assets that are not listed were created in Blender.
 
 - [[M]Lowpoly Planets of Solar System by MeowingMammoth](https://www.assetstore.unity3d.com/en/#!/content/83818)
 - [3D LowPoly Danxia Landscape by TingLuke](https://www.assetstore.unity3d.com/en/#!/content/74333)
