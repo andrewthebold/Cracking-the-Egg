@@ -14,6 +14,9 @@ Use an Oculus remote:
 - D-pad Down recenters the screen
 - Back button opens OVR Inspector Menu
 
+## Demo Video
+[![Cracking the Egg Demo Video](https://img.youtube.com/vi/NTvUeSlu8Xo/0.jpg)](https://www.youtube.com/watch?v=NTvUeSlu8Xo)
+
 ## Preview Screenshots
 ![capture](https://cloud.githubusercontent.com/assets/10323195/26778871/fa5637ee-4997-11e7-8143-76b108a01e4b.PNG)
 ![capture2](https://cloud.githubusercontent.com/assets/10323195/26778873/fb9ee560-4997-11e7-89fe-c8a8e81f12de.PNG)
