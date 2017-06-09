@@ -43,6 +43,11 @@ public class TabMenuController : MonoBehaviour {
     public Text ObjectiveFoundMarkerText;
     public Image ObjectiveFoundMarkerImage;
 
+    private int completedCount = 0;
+
+    public GameObject ObjectivesObj;
+    public GameObject CompletionObj;
+
     private void Awake()
     {
         curTab = startTab;
@@ -201,7 +206,17 @@ public class TabMenuController : MonoBehaviour {
 
 
         // Do a check for if we finished all objectives (how?)
-        // TODO
+        completedCount++;
+
+        if (completedCount == 5)
+        {
+            // Update the password with a random one
+            gameManager.newPassword();
+
+            // Then show the completion screen
+            ObjectivesObj.SetActive(false);
+            CompletionObj.SetActive(true);
+        }
     }
 
     public void CompleteWireframeMaterial (GameObject obj)

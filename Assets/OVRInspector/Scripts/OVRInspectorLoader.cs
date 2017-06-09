@@ -67,12 +67,12 @@ public class OVRInspectorLoader : MonoBehaviour
 
     void Start()
     {
-        if (summonMenuDelay > 0)
+        /*if (summonMenuDelay > 0)
         {
             StartCoroutine(DelayedMenuSummon());
         }
         else if (summonMenuDelay == 0)
-            OVRInspector.instance.Show();
+            OVRInspector.instance.Show();*/
     }
 
     IEnumerator DelayedMenuSummon()

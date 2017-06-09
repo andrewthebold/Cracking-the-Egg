@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
@@ -30,6 +31,8 @@ public class GameManager : MonoBehaviour {
     public GameObject SelectorMenu;
 
     private TabMenuController tabMenuController;
+
+    public GameObject PasswordObj;
 
     private void Awake()
     {
@@ -122,5 +125,27 @@ public class GameManager : MonoBehaviour {
 
             curEnvironment = environment;
         }
+    }
+
+    public void newPassword ()
+    {
+        List<string> passwords = new List<string>();
+
+        passwords.Add("Scrambled");
+        passwords.Add("Over-easy");
+        passwords.Add("Boiled");
+        passwords.Add("Sunny-side Up");
+        passwords.Add("Poached");
+        passwords.Add("Egg-celent");
+        passwords.Add("Whisked");
+
+        int index = Random.Range(0, passwords.Count - 1);
+
+        PasswordObj.GetComponentsInChildren<Text>()[0].text = "\"" + passwords[index] + "\"";
+    }
+
+    public void restartGame ()
+    {
+        SceneManager.LoadScene(0);
     }
 }

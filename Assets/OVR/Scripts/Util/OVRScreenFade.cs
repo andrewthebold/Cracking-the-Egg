@@ -120,4 +120,24 @@ public class OVRScreenFade : MonoBehaviour
 			GL.PopMatrix();
 		}
 	}
+
+    public void StartFadeOut ()
+    {
+        StartCoroutine(FadeOut());
+    }
+
+    IEnumerator FadeOut ()
+    {
+        float elapsedTime = 0.0f;
+        fadeMaterial.color = new Color(0.01f, 0.01f, 0.01f, 0.01f);
+        Color color = new Color(0.01f, 0.01f, 0.01f, 0.01f);
+        isFading = true;
+        while (elapsedTime < fadeTime)
+        {
+            yield return fadeInstruction;
+            elapsedTime += Time.deltaTime;
+            color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+        }
+    }
 }
