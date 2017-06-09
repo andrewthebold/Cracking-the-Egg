@@ -3,12 +3,14 @@ _Cracking the Egg_ is an interactive Unity scene for the Stanford class EE267: V
 
 This app requires an Oculus Rift CV1.
 
+[Download](https://github.com/andrewsoohwanlee/Cracking-the-Egg/releases/tag/v1.0)
+
 ## Controls
 Move around an open area with positional tracking.
 
 Use an Oculus remote:
 
-- D-pad Up acts as a regular click (due to current bug with Button One causing double clicks)
+- Circle "One" button acts as main button
 - D-pad Down recenters the screen
 - Back button opens OVR Inspector Menu
 
@@ -54,5 +56,6 @@ Note: Gathered from [freesound](http://freesound.org/) and [freemusicarchive](ht
 - [Snowfall (Intro) in Chapter One / Cold by Kai Engel](http://freemusicarchive.org/music/Kai_Engel/Chapter_One__Cold/)
 - [Why so seeming fast but deadly slow by Robert Farmer](http://freemusicarchive.org/music/Robert_Farmer/Solo_Guitar_Instrumentals/04-Why_so_seeming_fast_but_deadly_slow#)
 - [Era of Space by MrPork](http://freesound.org/people/MrPork/sounds/271866/)
+- [Kerriflute by ethang](http://freesound.org/people/ethang/sounds/88795/)
 
 All other sounds (found in Assets/_Sounds) used are licensed under CC0.
