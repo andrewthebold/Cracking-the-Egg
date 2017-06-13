@@ -5,7 +5,7 @@ This app requires an Oculus Rift CV1.
 
 [Download](https://github.com/andrewsoohwanlee/Cracking-the-Egg/releases/tag/v1.0)
 
-[Project Paper](https://github.com/andrewsoohwanlee/Cracking-the-Egg/tree/master/Project%20Paper/Clipping-based%20Virtual%20Environment%20by%20Andrew%20Lee%20(2017).tex)
+[Project Paper](https://github.com/andrewsoohwanlee/Cracking-the-Egg/tree/master/Project%20Paper/Clipping-based%20Virtual%20Environment%20by%20Andrew%20Lee%20(2017).pdf)
 
 ## Controls
 Move around an open area with positional tracking.
