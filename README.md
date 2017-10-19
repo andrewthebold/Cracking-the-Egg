@@ -17,7 +17,7 @@ Use an Oculus remote:
 - Back button opens OVR Inspector Menu
 
 ## Demo Video
-[![Cracking the Egg Demo Video](https://img.youtube.com/vi/NTvUeSlu8Xo/0.jpg)](https://www.youtube.com/watch?v=NTvUeSlu8Xo)
+[![Cracking the Egg Demo Video](https://user-images.githubusercontent.com/10323195/31756768-99f711ce-b45a-11e7-941a-cb921bb7beb1.png)](https://www.youtube.com/watch?v=NTvUeSlu8Xo)
 
 ## Preview Screenshots
 ![capture](https://cloud.githubusercontent.com/assets/10323195/26778871/fa5637ee-4997-11e7-8143-76b108a01e4b.PNG)
